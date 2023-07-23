@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Light</title>
+    <script defer async src="trafficlight.js"></script>
+    <link rel="stylesheet" href="trafficlight.css" />
+  </head>
+  <body>
+    <h2>Greatest Common Divisor and Least Common Multiple</h2>
+
+    <form>
+      <input type="number" name="firstNumber" id="firstNumber" />
+      <input type="number" name="secondNumber" id="secondNumber" />
+
+      <input
+        onclick="greatestComonDivisor()"
+        id="gcd"
+        type="button"
+        value="g.c.d."
+      />
+      <input
+        onclick="leastCommonMultiple()"
+        id="lcm"
+        type="button"
+        value="l.c.m."
+      />
+    </form>
+
+    <h4 id="result">The result is:....</h4>
+
+    <hr />
+
+    <h2>Traffic Light</h2>
+
+    <div id="ex2">
+      <div id="trafficLight">
+        <div class="red"></div>
+
+        <div class="yellow"></div>
+
+        <div class="green"></div>
+      </div>
+
+      <div id="buttons">
+        <button id="day">Day</button>
+        <button id="night">Night</button>
+      </div>
+    </div>
+  </body>
+</html>
